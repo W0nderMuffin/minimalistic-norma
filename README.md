@@ -1,5 +1,7 @@
 # Koken Theme
 
+This is a free minimalistic theme for Koken.me
+
 ## Disclaimer
 
 This theme is based on the Norma theme created by John Elgenstierna.
@@ -8,7 +10,7 @@ This theme is based on the Norma theme created by John Elgenstierna.
 
 ## Installation
 
-Copy the folder to your themes directory in the storage folder of your Koken installation.
+Rename and copy the folder to your themes directory in the storage folder of your Koken installation.
 
 ## Features
 
@@ -16,5 +18,8 @@ There are 3 different kinds of navigations built in, you decide which one suits 
 
 ## Known issues
 
-*expanded navigation does not work on mobile views
-*slide in navigation is not working on mobiles
+* expanded navigation does not work on mobile views
+* slide in navigation is not working on mobiles
+
+## Demo
+Here is my [demo site](http://giang.codes).
