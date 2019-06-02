@@ -18,7 +18,7 @@ legend, table, caption, tbody, tfoot, thead, tr, th, td, a, figure {
 }
 
 html, body {
-	background:#fff;
+	background:#615F5F;
 	width:100%;
 	height:100%;
 }
@@ -55,7 +55,6 @@ p a:hover {
 	text-transform:uppercase;
 	float:left;
 	padding:14px;
-	background:#000;
 	display:block;
 	box-sizing:border-box;
 	height:48px;
@@ -66,6 +65,10 @@ p a:hover {
 	z-index:999;
 	margin:20px;
 	text-align:center;
+}
+
+#sitename:hover {
+	border: 1px solid #fff;
 }
 
 #sidebar {
@@ -102,24 +105,17 @@ p a:hover {
 	text-transform:uppercase;
 	padding:15px;
 	font-weight:bold;
-	background:#000;
 	color:#fff;
-	border-left:1px solid #333;
 }
 
 #regular nav a:hover {
 	color:#fff;
-	border-color:#000;
-	background:#333;
-}
-
-#regular nav ul li:first-of-type a {
-	border:none;
+	border-color:#fff;
+	border:1px solid;
 }
 
 #regular nav .k-nav-current {
-	border-color:#000;
-	background:#333;
+	border-color:#fff;
 	color:#fff;
 	display:inline-block;
 	white-space: nowrap;
@@ -181,22 +177,20 @@ p a:hover {
 	font-size:1.2em;
 	box-sizing:border-box;
 	padding:10px 15px 15px 15px;
-	border-left:1px solid #333;
-	background:#000;
 	color:#fff;
 	float:right;
 }
 
 #regular .show-toggled {
-	background:#000 !important;
+	border:1px solid !important;
 	color:#fff !important;
-	border-color:#333 !important;
+	border-color:#fff !important;
 }
 
 #regular .show:hover {
+	border:1px solid;
 	color:#fff;
-	border-color:#222;
-	background:#333;
+	border-color:#fff;
 }
 
 #regular.expanded .show {
@@ -218,7 +212,7 @@ main {
 	height:100%;
 	z-index:98;
 	position:relative;
-	background:#fff;
+	background:#615F5F;
 }
 
 #sidebar .menu {
@@ -378,49 +372,44 @@ main {
 	margin:0 auto;
 	padding:120px 50px 120px 50px;
 	color:#222;
-	background:#fff;
+	background:#615F5F;
 }
 
 .k-lens-index .show, 
 .k-lens-albums .show, 
 .k-lens-contents .show, 
 .k-lens-sets .show {
-	border-color:#f0f0f0;
-	background:#fff;
-	color:#000;
+	border-color:#fff;
+	color:#fff;
 }
 
 .k-lens-index .show:hover, .k-lens-albums .show:hover, 
 .k-lens-contents .show:hover, .k-lens-sets .show:hover {
-	background:#000;
 	color:#fff;
-	border-color:#333;
+	border-color:#fff;
 }
 
 .k-lens-index nav a, .k-lens-albums nav a, 
 .k-lens-contents nav a, 
 .k-lens-sets nav a {
-	background:#fff;
-	color:#000;
-	border-color:#f0f0f0;
+	color:#ffff;
+	border-color:#fff;
 }
 
 .k-lens-index nav a:hover, 
 .k-lens-albums nav a:hover, 
 .k-lens-contents nav a:hover, 
 .k-lens-sets nav a:hover {
-	background:#000;
 	color:#fff;
-	border-color:#333;
+	border-color:#fff;
 }
 
 .k-lens-index nav .k-nav-current, 
 .k-lens-albums nav .k-nav-current, 
 .k-lens-contents nav .k-nav-current, 
 .k-lens-sets nav .k-nav-current {
-	background:#000;
 	color:#fff;
-	border-color:#000;
+	border-color:#fff;
 }
 
 #slideshow_nav {
@@ -436,8 +425,7 @@ main {
 
 .sldshw-arrow-left, 
 .sldshw-arrow-right {
-	background:#fff;
-	color:#000;
+	color:#fff;
 	box-sizing:border-box;
 	display:block;
 	height:50px;
@@ -448,14 +436,17 @@ main {
 }
 
 .sldshw-arrow-left {
-	border-right:1px solid #ddd;
+	border-right:1px solid #fff;
 }
 
 .sldshw-arrow-left:hover, 
 .sldshw-arrow-right:hover {
-	background:#000;
-	border:none;
+	border:1px solid;
 	color:#fff;
+}
+
+.sldshw-arrow-right:hover {
+	border-left:none;
 }
 
 footer {
@@ -601,7 +592,7 @@ footer {
 .essay-time, time {
 	font-weight:600;
 	text-transform:uppercase;
-	color:#aaa;
+	color:#fff;
 	letter-spacing:2.5px;
 	font-size:1em;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
@@ -649,7 +640,7 @@ form label {
 	line-height:1.7em;
 	font-size:1.17em;
 	letter-spacing:0.01rem;
-	color:#444;
+	color:#fff;
 	font-weight:300;
 	font-family: 'Merriweather', serif;
 }
