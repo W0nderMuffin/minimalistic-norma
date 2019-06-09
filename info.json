@@ -1,56 +1,70 @@
 {
-	"name": "Minimalistic Norma",
-	"version": "1.0",
-	"description": "A minimalistic theme based on the Norma theme by John Elgenstierna",
- 	"author": {
-	    "name": "Giang Ta"
-	},
-
-	"settings": {
-		"Site title": {
-			"icon":"type",
-			"settings": {
-				"site_title_type": {
-					"label": "Type",
-					"type": "select",
-					"options": [
-						{ "label": "Text", "value": "text" },
-						{ "label": "Image", "value": "image" }
-					],
-					"value": "text"
-				},
-
-				"site_title_img_url": {
-					"label": "Image URL",
-					"type": "string",
-					"value": "",
-					"dependencies": {
-	                    "evaluate": "all",
-	                    "conditions": [
-	                         {
-	                              "option": "site_title_type",
-	                              "equals": "image"
-	                         }
-	                    ]
-	               }
-				}
-			}
-		},
-
-		"Navigation": {
-			"icon":"layout",
-			"settings": {
-				"menu_type": {
-					"label": "Type",
-					"type": "select",
-					"options": [
-						{ "label": "Regular", "value": "regular" },
-						{ "label": "Regular Expanded", "value": "expanded" },
-						{ "label": "Sidebar", "value": "sidebar" }
-					],
-					"value": "regular"
-				}
-			}
-		}
-	}
+  "name": "Minimalistic Norma",
+  "version": "1.0",
+  "description": "A minimalistic theme based on the Norma theme by John Elgenstierna",
+  "demo": "http://giang.codes",
+  "author": {
+    "name": "Giang Ta",
+    "link": "http://giang.codes"
+  },
+  "settings": {
+    "Site title": {
+      "icon": "type",
+      "settings": {
+        "site_title_type": {
+          "label": "Type",
+          "type": "select",
+          "options": [
+            {
+              "label": "Text",
+              "value": "text"
+            },
+            {
+              "label": "Image",
+              "value": "image"
+            }
+          ],
+          "value": "text"
+        },
+        "site_title_img_url": {
+          "label": "Image URL",
+          "type": "string",
+          "value": "",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "image"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Navigation": {
+      "icon": "layout",
+      "settings": {
+        "menu_type": {
+          "label": "Type",
+          "type": "select",
+          "options": [
+            {
+              "label": "Regular",
+              "value": "regular"
+            },
+            {
+              "label": "Regular Expanded",
+              "value": "expanded"
+            },
+            {
+              "label": "Sidebar",
+              "value": "sidebar"
+            }
+          ],
+          "value": "regular"
+        }
+      }
+    }
+  }
 }
