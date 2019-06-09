@@ -595,6 +595,7 @@ footer {
 	letter-spacing:2.5px;
 	font-size:1em;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	color:#000;
 }
 
 .entry .k-content-embed {
@@ -641,6 +642,10 @@ form label {
 	letter-spacing:0.01rem;
 	font-weight:300;
 	font-family: 'Merriweather', serif;
+}
+
+.entry p {
+	color: #fff;
 }
 
 .entry ol li, .entry ul li {
@@ -1046,5 +1051,3 @@ margin-left:200px;
 margin-left:20px;
 }
 }
-
-
