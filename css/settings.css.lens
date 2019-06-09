@@ -18,7 +18,7 @@ legend, table, caption, tbody, tfoot, thead, tr, th, td, a, figure {
 }
 
 html, body {
-	background:#615F5F;
+	background:#323639;
 	width:100%;
 	height:100%;
 }
@@ -212,7 +212,7 @@ main {
 	height:100%;
 	z-index:98;
 	position:relative;
-	background:#615F5F;
+	background:#323639;
 }
 
 #sidebar .menu {
@@ -662,6 +662,7 @@ form label {
 .entry h2 {
 	font-size:2em;
 	font-weight:700;
+	color:#fff;
 }
 
 .entry h3 {
