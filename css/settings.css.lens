@@ -368,7 +368,6 @@ main {
 }
 
 .top-section {
-	max-width:750px;
 	margin:0 auto;
 	padding:120px 50px 120px 50px;
 	color:#222;
