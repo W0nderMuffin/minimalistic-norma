@@ -22,4 +22,4 @@ There are 3 different kinds of navigations built in, you decide which one suits 
 * slide in navigation is not working on mobiles
 
 ## Demo
-Here is my [demo site](http://giang.codes).
+Here is my [demo site](https://koken.giang.codes).
